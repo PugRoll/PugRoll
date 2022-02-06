@@ -3,7 +3,7 @@
 - 💞️ I’m looking to collaborate on... well really anything right now
 - 📫 How to reach me ...
   email: - phutson02@protonmail.com
- - some of my languages are Java, C/C++, Python, SQL, Javascript, and HTML/CSS. 
+ - Some of my languages are Java, C/C++, Python, SQL, Javascript, and HTML/CSS. 
 
 <!---
 PugRoll/PugRoll is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
