@@ -1,8 +1,8 @@
 - # 👋 Hi, I’m @PugRoll
-- 🌱 I’m currently learning computer science
-- 💞️ I’m looking to collaborate on... well really anything right now
+- 🌱 I’m studying computer science.
+- 💞️ I’m looking to collaborate on... 
 - 📫 How to reach me ...
-  email: - phutson02@protonmail.com
+  email: - phutson02@protonmail.com or at my business email: phutsonwork@gmail.com
  - Some of my languages are Java, C/C++, Python, SQL, Javascript, and HTML/CSS. 
 
 <!---
