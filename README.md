@@ -2,7 +2,7 @@
 - 🌱 I’m studying computer science.
 - 💞️ I’m looking to collaborate on... 
 - 📫 How to reach me ...
-  email: - phutson02@protonmail.com or at my business email: phutsonwork@gmail.com
+  email: - phutson02@protonmail.com
  - Some of my languages are Java, C/C++, Python, SQL, Javascript, and HTML/CSS. 
 
 <!---
