@@ -1,3 +1,4 @@
+"For all the plugins I might need: Docs:https://github.com/junegunn/vim-plug
 call plug#begin() 
 "Plug 'folke/tokyonight.nvim', {'branch':'main'}
 Plug 'navarasu/onedark.nvim'
@@ -8,6 +9,7 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'dense-analysis/ale'
 Plug 'preservim/nerdcommenter'
 Plug 'nvim-lualine/lualine.nvim'
+Plug 'nvim-tree/nvim-tree.lua'
 Plug 'lukas-reineke/indent-blankline.nvim'
 call plug#end()
 
@@ -25,6 +27,9 @@ set termguicolors
 set tabstop=4
 set softtabstop=4
 set expandtab
+
+"At 'y and 'p to system clipboard
+set clipboard+=unnamedplus
 
 "auto indent
 set smartindent
@@ -63,16 +68,42 @@ set undofile
 "Enable mouse support
 set mouse=a
 
-"Start Telescope
+"Start Telescope"
 lua << END
 require('telescope').setup()
 END
 
-
-"Start lualine:
+"Start lualine:"
 lua << END
 require('lualine').setup()
 options = {theme = 'onedark' }
 END
 
-"For all the plugins I might need: Docs:https://github.com/junegunn/vim-plug
+"Start nvim-tree"
+lua << END
+require('nvim-tree').setup()
+END
+
+"Start nvimTreeSitter"
+lua << END
+require('nvim-treesitter.configs').setup {
+    --Guarantee certain parsers are installed on setup
+    ensure_install = {"cpp", "java", "json"},
+    --Install parsers synchronously
+    sync_install = false,
+    --Automatically install missing parsers, best used when "TreeSitter CLI" installed
+    auto_install = false,
+    
+    
+    --Enbable highlighting
+    hightlight = {
+        --`false` will disable lightling for whole extension
+        enable = true,
+
+        --We can disable certain parsers for specific languages
+        
+        additional_vim_regex_highlighting = false,
+    },
+}
+END
+
