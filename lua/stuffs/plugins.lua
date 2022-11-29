@@ -24,6 +24,7 @@ return require("packer").startup(function(use)
     --Colors
     use 'folke/tokyonight.nvim'
     use 'navarasu/onedark.nvim'
+    use 'sam4llis/nvim-tundra'
     
     --linter
     use 'dense-analysis/ale'

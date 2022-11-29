@@ -5,6 +5,7 @@ require("stuffs.plugins")
 require("stuffs.telescope")
 require("stuffs.keymap")
 require("stuffs.coc_keymap")
+require("stuffs.my_neovide")
 -- require("stuffs.telescope")
 -- -- require("stuffs.packer")
 
