@@ -10,11 +10,21 @@ return require("packer").startup(function(use)
         'nvim-lualine/lualine.nvim',
         requires = {'kyazdani42/nvim-web-devicons', opt = true}
     })
+    --vim-be-good
+    use 'ThePrimeagen/vim-be-good'
 
     --tressitter
     use("nvim-treesitter/nvim-treesitter", {
         run = "TSUpdate"
     })
+
+    --nvim-tree
+    use 'nvim-tree/nvim-web-devicons'
+    use {
+        'nvim-tree/nvim-tree.lua',
+        requires = "nvim-tree/nvim-web-devicons",
+        tag = 'nightly'
+    }
 
     --lspConfig
     use 'neovim/nvim-lspconfig'
@@ -35,8 +45,14 @@ return require("packer").startup(function(use)
     use 'liuchengxu/vista.vim'
 
     --Misc.
-    use 'phaazon/hop.nvim'
+    use {
+        'phaazon/hop.nvim', 
+        branch = 'v2',
+    }
     use 'editorconfig/editorconfig-vim'
+    use {'akinsho/bufferline.nvim', tag="v3.*", requires = 'nvim-tree/nvim-web-devicons'}
+
+    
 
 
 end)
