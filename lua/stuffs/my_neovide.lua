@@ -4,8 +4,8 @@
 vim.g.neovide_scale_factor = 1.0
 
 --Font Settings
-vim.opt.guifont = {"FiraCode Nerd Font", ":h12"}
-
+vim.opt.guifont = {"FiraCode NF", ":h12"}
+vim.g.neovide_transparency = 1
 --Screen settings
 vim.g.neovide_refresh_rate = 60
 vim.g.neovide_refresh_rate_ide = 5

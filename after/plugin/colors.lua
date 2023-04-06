@@ -29,7 +29,14 @@ require('nvim-tundra').setup({
         color = nil,
     },
 })
-require('onedark').load()
-
+require('one_monokai').setup({
+    transparent=false,
+    colors={},
+    themes = function(colors)
+        return {}
+    end,
+})
+--require('onedark').load()
+--require('one_monokai').load()
 --vim.opt.background = 'dark'
 --vim.cmd('colorscheme tundra')

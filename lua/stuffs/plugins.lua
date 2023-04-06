@@ -35,6 +35,8 @@ return require("packer").startup(function(use)
     use 'folke/tokyonight.nvim'
     use 'navarasu/onedark.nvim'
     use 'sam4llis/nvim-tundra'
+    use {"catppuccin/nvim", as = "catppuccin"}
+    use {"cpea2506/one_monokai.nvim"}
     
     --linter
     use 'dense-analysis/ale'

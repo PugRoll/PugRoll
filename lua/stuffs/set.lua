@@ -31,7 +31,7 @@ vim.opt.splitright = true
 
 --See set termguicolors
 vim.opt.termguicolors = true
---require("bufferline").setup{}
+require("bufferline").setup{}
 
 
 --Misc.
